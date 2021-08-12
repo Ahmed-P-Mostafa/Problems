@@ -1,42 +1,61 @@
 package com.polotika;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        int pick = 6;
+        int n,h,x;
+        int result = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter n number");
-        int n = scanner.nextInt();
-        int result = BinarySearch.guessNumber(n);
+        n = scanner.nextInt();
+        h = scanner.nextInt();
+
+        for (int i=0;i<n ;i++){
+            x = scanner.nextInt();
+            if (x>h)
+                result++;
+            result++;
+
+        }
         System.out.println(result);
 
+
     }
 
-    public static int findKthPositive(int[] arr, int k) {
-        int start = 1;
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        for (int i = 0;i< arr.length&& arrayList.size() == k;i++){
-            if (arr[i]==start){
+    void test1(){
+        int n,h,x;
+        int result = 0;
+        Scanner scanner = new Scanner(System.in);
+        String[] line = scanner.nextLine().split(" ");
+        String[] numbers = scanner.nextLine().split(" ");
+        n = Integer.parseInt(line[0]);
+        h = Integer.parseInt(line[1]);
 
-            }else {
-                arrayList.add(start);
-                //if (i==0)
-                    --i;
-            }
-            ++start;
+        for (int i=0;i<n ;i++){
+            x = scanner.nextInt();
+            if (x>h)
+                result++;
+            result++;
+
         }
+        System.out.println(result);
+    }
+    void test2(){
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()){
 
-        return arrayList.get(k-1);
+        }
     }
 
-    /*
-    start = 1
-    i = 0
-    * 0 1 2 3
-    * 1 2 3 4
-    *
-    */
+
+
 }
+
+
+
+
+
