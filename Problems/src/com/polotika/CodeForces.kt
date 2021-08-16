@@ -5,6 +5,10 @@ import java.util.*
 class CodeForces {
 
     private fun vanyaAndFenceCF677D2A(){
+        
+        /**
+        my submission link
+        https://codeforces.com/contest/677/submission/125541754*/
         val n: Int
         val h: Int
         var x: Int
