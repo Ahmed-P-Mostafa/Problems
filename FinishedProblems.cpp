@@ -4,6 +4,68 @@
 
 #include "FinishedProblems.h"
 #include <iostream>
+#include <algorithm>
+
+/** 7
+   * my submission link
+   * https://codeforces.com/contest/112/submission/126148531*/
+
+
+void petyaAndString(){
+    /** 6
+   * my submission link
+   * https://codeforces.com/contest/112/submission/126148531*/
+
+    std::string first , second;
+
+
+    std::cin>> first;
+    std::cin >>second;
+
+    std::transform(first.begin(), first.end(), first.begin(),
+                   [](unsigned char c){ return std::tolower(c); });
+
+    std::transform(second.begin(), second.end(), second.begin(),
+                   [](unsigned char c){ return std::tolower(c); });
+
+
+    if(first == second) std::cout << 0;
+    else if (first>second) std::cout<< 1;
+    else if (first<second) std::cout<< -1;
+}
+void gravityFlip(){
+    /** 5
+   * my submission link
+   * https://codeforces.com/contest/405/submission/126146373*/
+
+
+    int n =0;
+    std::cin >> n ;
+    int columns[n];
+    for (int i = 0; i < n; ++i) {
+        std::cin >> columns[i];
+    }
+    for (int i = 0; i < n; ++i) {
+        int temp = 0;
+        for (int j = 0; j < n-1; ++j) {
+
+            if (columns[j]>columns[j+1]){
+                temp = columns[j];
+                columns[j] = columns[j+1];
+                columns[j+1] = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < n; ++i) {
+        if (i!=n-1){
+            std::cout << columns[i]<< " ";
+        } else std::cout << columns[i];
+
+
+    }
+
+}
 
 void matrix(){
 
