@@ -45,10 +45,7 @@ class CodeForces {
     }
 
     private fun goodNumber(){
-        /**
-        my submission link
-        https://codeforces.com/contest/365/submission/126968811
-         */
+
         /**
          * my submission link
          * https://codeforces.com/contest/365/submission/126968811
@@ -70,5 +67,33 @@ class CodeForces {
         }
         println(Arrays.stream(array).sum())
 
+    }
+
+    private fun nightAtTheMuseum(){
+
+        /**
+         * my submission link
+         * https@ //codeforces.com/contest/731/submission/126993030
+         */
+
+        val frac = 96
+
+        val scanner = Scanner(System.`in`)
+
+        val exhibit = scanner.next()
+        var result = 0
+        var letter = 'a'.toInt() - frac
+        for (i in 0 until exhibit.length) {
+            val x = exhibit[i].toInt() - frac
+            val abs = Math.abs(x - letter)
+            result += if (abs < 13) {
+                abs
+            } else {
+                val h = Math.abs(abs - 26)
+                h
+            }
+            letter = exhibit[i].toInt() - frac
+        }
+        println(result)
     }
 }
