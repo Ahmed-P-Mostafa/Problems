@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="67d5b1fa-82cd-494c-8773-767d7d5fe3b3" name="Default Changelist" comment="problem 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/polotika/CodeForces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/CodeForces.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/polotika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +173,11 @@
           <url>file://$PROJECT_DIR$/src/com/polotika/BinarySearch.java</url>
           <line>36</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/polotika/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

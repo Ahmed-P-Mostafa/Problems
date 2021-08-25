@@ -43,4 +43,32 @@ class CodeForces {
             }
         }
     }
+
+    private fun goodNumber(){
+        /**
+        my submission link
+        https://codeforces.com/contest/365/submission/126968811
+         */
+        /**
+         * my submission link
+         * https://codeforces.com/contest/365/submission/126968811
+         */
+        val scanner = Scanner(System.`in`)
+        val n = scanner.nextInt()
+        val k = scanner.nextInt()
+        val array = IntArray(n)
+        Arrays.fill(array, 1)
+
+        for (i in 0 until n) {
+            val line = scanner.next()
+            for (j in 0..k) {
+                if (!line.contains("" + j)) {
+                    array[i] = 0
+                    break
+                }
+            }
+        }
+        println(Arrays.stream(array).sum())
+
+    }
 }
