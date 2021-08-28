@@ -6,26 +6,36 @@
 #include <iostream>
 #include <algorithm>
 
-/** 7
+/** 8
    * my submission link
    * https://codeforces.com/contest/112/submission/126148531*/
 
-void dislikeOfThree(){
+void boyOrGirl(){
+    /** 7
+   * my submission link
+   * https://codeforces.com/contest/236/submission/126423140 */
+    int list[26] = {0};
 
-    int t ;
-    std::cin >> t;
+    std::string user;
+    std::cin>> user ;
+    for (int i = 0; i < user.length(); ++i) {
+        char c = user.at(i);
+        int index = (int)c -97;
+        list[index] +=1;
+    }
 
-    for (int i = 1; i <=t; ++i) {
-        int k;
-        std::cin >> k;
-        std::string  kk = std::to_string(k);
-        char last = kk.at(kk.length()-1);
-        if (k % 3 == 0|| last=='3'){
-            t++;
-        }else{
-            std::cout << i <<std::endl;
 
+    int result = 0;
+    for (int i = 0; i <26; ++i) {
+        if (list[i] >=1){
+            result++;
         }
+    }
+    if (result%2==0) {
+        std::cout << "CHAT WITH HER!";
+    }
+    else {
+        std::cout << "IGNORE HIM!";
 
     }
 
