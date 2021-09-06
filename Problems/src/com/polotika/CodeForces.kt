@@ -4,6 +4,29 @@ import java.util.*
 
 class CodeForces {
 
+    private fun dominoDisaster(){
+     /**
+      * https://codeforces.com/contest/1567/submission/127961990 */
+        val scanner = Scanner(System.`in`)
+        val n = scanner.nextByte()
+
+        for (i in 0 until n) {
+            val width = scanner.nextByte()
+            val domino = scanner.next().toLowerCase()
+            if (domino.contains("u")) {
+                val u = domino.indexOf('u')
+                val upDomino = domino.replace('u', 'd')
+                println(upDomino.toUpperCase())
+            } else if (domino.contains("d")) {
+                val d = domino.indexOf('d')
+                val upDomino = domino.replace('d', 'u')
+                println(upDomino.toUpperCase())
+            } else {
+                println(domino.toUpperCase())
+            }
+        }
+    }
+
     private fun vanyaAndFenceCF677D2A(){
         
         /**
