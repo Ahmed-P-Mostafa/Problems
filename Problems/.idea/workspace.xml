@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d5b1fa-82cd-494c-8773-767d7d5fe3b3" name="Default Changelist" comment="Insertion sort">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/polotika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/polotika/Main.class" afterDir="false" />
+    <list default="true" id="67d5b1fa-82cd-494c-8773-767d7d5fe3b3" name="Default Changelist" comment="Selection sort">
       <change beforePath="$PROJECT_DIR$/src/com/polotika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/polotika/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/Sorting.java" afterDir="false" />
     </list>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630944341737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Selection sort">
+      <created>1630962801035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630962801035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +210,8 @@
     <MESSAGE value="problem 10" />
     <MESSAGE value="problem 11" />
     <MESSAGE value="Insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort" />
+    <MESSAGE value="Selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selection sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,6 +220,21 @@
           <url>file://$PROJECT_DIR$/src/com/polotika/BinarySearch.java</url>
           <line>36</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/polotika/Sorting.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/polotika/Sorting.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/polotika/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

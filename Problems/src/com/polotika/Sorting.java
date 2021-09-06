@@ -19,6 +19,7 @@ public class Sorting {
         for (int i:arr ) {
             System.out.print(i+" ");
         }
+        System.out.println();
     }
 
     static void insertionDecreasingSort(int[] arr){
@@ -42,29 +43,27 @@ public class Sorting {
             System.out.print(i+" ");
 
         }
+        System.out.println();
     }
 
     static void selectionIncreasingSort(int[] arr){
-        // t j
-        // 3,44,38,5,47,15,36,26,27,2,46,4,19,50,48
-        //   l
-        // t = 1
         int l ,t , j ;
         for(int i =0 ; i<arr.length-1;i++){
             l = arr[i];
             t = i;
-            for (j = i+1 ; j < arr.length-1;j++){
+            for (j = i+1 ; j < arr.length;j++){
                 if (arr[j]<l){
                     l = arr[j];
                     t = j;
                 }
             }
+            arr[t] = arr[i];
             arr[i] = l;
-            arr[j] = t;
         }
         for (int i :
                 arr) {
             System.out.print(i+" ");
         }
+        System.out.println();
     }
 }
