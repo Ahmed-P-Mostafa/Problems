@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d5b1fa-82cd-494c-8773-767d7d5fe3b3" name="Default Changelist" comment="problem 11">
+    <list default="true" id="67d5b1fa-82cd-494c-8773-767d7d5fe3b3" name="Default Changelist" comment="Insertion sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/polotika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/com/polotika/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/polotika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/polotika/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/polotika/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630893102225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Insertion sort">
+      <created>1630944341737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630944341737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +204,8 @@
     <MESSAGE value="problem 9" />
     <MESSAGE value="problem 10" />
     <MESSAGE value="problem 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem 11" />
+    <MESSAGE value="Insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
