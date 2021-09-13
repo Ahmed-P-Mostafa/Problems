@@ -3,6 +3,41 @@ package com.polotika
 import java.util.*
 
 class CodeForces {
+    
+       private fun findNextGreater(a: IntArray) {
+        // int[] a = new int[]{5,3,2,4,8,6,1,9,7};
+        val s = Stack<Int>()
+        s.push(a[0])
+        for (i in 1 until a.size) {
+            while (!s.empty() && s.peek() < a[i]) {
+                println(s.pop().toString() + " next greater is: " + a[i])
+            }
+            s.push(a[i])
+        }
+        while (!s.empty()) {
+            println(s.pop().toString() + " next greater is: -1 ")
+        }
+    }
+
+    fun replaceNth(text: String, n: Int, oldValue: Char, newValue: Char): String? {
+        var text = text
+        val textArr = text.toCharArray()
+        if (n <= 0 || n > textArr.size) return text
+        var l = 0
+        for (i in textArr.indices) {
+            if (textArr[i] == oldValue) {
+                ++l
+                if (l == n) {
+                    textArr[i] = newValue
+                    l = 0
+                }
+            }
+        }
+        text = String(textArr)
+        return text
+    }
+
+
 
     private fun dominoDisaster(){
      /**
